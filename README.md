@@ -18,15 +18,6 @@ Built as a Terraform equivalent of production Bicep patterns.
 - **NAT Gateway** for controlled outbound egress with a static public IP
 - **Azure Databricks workspace** with VNet injection and Secure Cluster Connectivity (no public IP on nodes)
 
-## Repo structure
-├── main.tf            # Resource group, VNet, subnets
-├── nsg.tf             # NSG + subnet associations
-├── variables.tf       # Input variable declarations
-├── versions.tf        # Terraform + provider version constraints
-├── terraform.tfvars   # Dev environment values
-└── docs/
- └── adws-arch.png
-
 ## Prerequisites
 
 - Terraform >= 1.6.0
